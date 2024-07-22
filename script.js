@@ -21,6 +21,7 @@ yesBtn.addEventListener('click', () => {
     responseDiv.innerHTML = 'YIEE SHE LOVES ME, LOVE YOU TO MWUAH😘';
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
+    yesBtn.style.display = 'none';
     yesClicked = true;
     alyasan.style.display = 'none'; // hide the alyasan image
     wantmeVideo.style.display = 'block'; // show the video
