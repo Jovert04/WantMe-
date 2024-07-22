@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#question {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#response {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00698f;
+}
+
+#pouty {
+    height: 200px;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.alyasan {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.mikuu {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.senpai {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.cozy {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+#crybaby {
+    height: 400px; /* double size */
+    width: auto;
+    object-fit: cover;
+    display: none;
+}
+
+.hidden-video {
+    height: 400px;
+    width: auto;
+    display: none;
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+}
